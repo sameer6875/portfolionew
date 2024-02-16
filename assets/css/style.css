@@ -122,7 +122,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  color: bisque;
+  color: orange;
   box-sizing: border-box;
 }
 
