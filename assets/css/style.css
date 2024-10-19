@@ -173,7 +173,7 @@ article {
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
-  z-index: 1;
+  z-index: -1;
 }
 
 .separator {
@@ -1826,7 +1826,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: sticky;
-    top: 60px;
+    /* top: 60px; */
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
@@ -2452,7 +2452,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: sticky;
-    top: 60px;
+    /* top: 60px; */
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
